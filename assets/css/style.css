@@ -1,0 +1,101 @@
+
+
+/* ====================================================================
+                                RESET
+=====================================================================*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ====================================================================
+                                
+=====================================================================*/
+
+section {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding-top: 10rem;
+    height: 100vh;
+}
+
+label span {
+    color: red;
+}
+
+label {
+    font-weight: 600;
+}
+
+input {
+    border: 2px solid rgb(195, 195, 195);
+    font-size: 1.2rem;
+}
+
+input[class="name"] {
+    width: 15rem;
+    height: 2.8rem;
+    padding-left: 1rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+input[type="email"] {
+    width: 30.25rem;
+    height: 2.8rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+
+}
+
+select {
+    width: 30.25rem;
+    height: 2.8rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    border: 2px solid rgb(195, 195, 195);
+
+}
+
+textarea {
+    width: 30.25rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+    border: 2px solid rgb(195, 195, 195);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+input[type="submit"] {
+    width: 30.25rem;
+    height: 2.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: rgb(35, 150, 165);
+    color: white;
+    font-size: 1rem;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(10, 10, 89);
+}
